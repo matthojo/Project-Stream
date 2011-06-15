@@ -1,0 +1,21 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Designer & Developer: Matthew Harrison-Jones
+  Site: http://matthojo.co.uk
+  Twitter: @matt_hojo
+  Location: Wales, GB
+
+  Designer & Developer: Tom Elmore
+  Twitter: @tom_elmore
+  Location: Wales, GB
+  
+/* THANKS */
+  Names (& URL): 
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software: Espresso, CSSEdit 
