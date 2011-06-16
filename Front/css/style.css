@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: bold; }
  */
 
 body{
-	background: #FFF url(../img/gradientreverse.png) repeat-x bottom left fixed;
+	background: #FFF url(../img/noise.png) repeat top left fixed;
 	height: 100%;
 }
 #container{
