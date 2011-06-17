@@ -1,3 +1,4 @@
 Design/*
 Front/ProjectStream.esproj
+*.swp
 !.gitignore
