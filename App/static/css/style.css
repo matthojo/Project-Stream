@@ -158,7 +158,6 @@ body, select, input, textarea {
   color: #444;
   /* Set your base font here, to apply evenly */
   /* font-family: Georgia, serif;  */
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
@@ -168,96 +167,14 @@ h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 /**
  * Primary styles
  *
- * Author: Matthew Harrison-Jones
+ * Author: 
  */
 
-body{
-	background: #FFF url(../img/noise.png) repeat top left fixed;
-	height: 100%;
-}
-#container{
-	margin: 0 auto;
-}
-header{
-	background: url(../img/noiseDark.png) repeat top left fixed;
-	height: 120px;
-	padding-top: 20px;
-	border-bottom: 1px solid #CCC;
-	overflow: hidden;
-	-webkit-box-shadow: inset 0px 0px 8px 0px #222222;
-	-moz-box-shadow: inset 0px 0px 8px 0px #222222;
-	box-shadow: inset 0px 0px 8px 0px #222222;
-}
-header #logo{
-	padding-top: 20px;
-	margin: 0 0 0 80px;
-	float: left;
-}
-h1.name{
-	font-size: 32px;
-	color: #FFF;
-	letter-spacing: -1px;
-	margin:0;
-}
-h2.description{
-	font-size: 12px;
-	color: #BBB;
-}
 
-header #preview{
-	width: 300px;
-	height: 250px;
-	margin: 0 auto;
-}
 
-#main{
-	width: 600px;
-	margin: 0 auto;
-	text-align: center;
-}
-#main .massive{
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: 40px;
-	text-align: center;
-}
-#main #repo{
-	margin-top: 40px;
-	width: 100%;
-	background:#FFF;
-	border:1px solid #CCC;
-	padding: 20px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-}
-#repo h4{
-	float: left;
-	font-size: 20px;
-	color: #444;
-	vertical-align: middle;
-}
-#repo .button{
-	font-size: 16px;
-	float:right;
-}
 
-footer{
-	margin-top: 20px;
-	text-align: center;
-	color: #AAA;
-	text-shadow: 0 1px 1px #FFF;
-}
 
-footer a, footer a:visited{
-	color: #AAA;
-	font-weight: bold;
-	text-decoration: none;
-}
-footer a:hover{
-	color: #AAA;
-	text-decoration: underline;
-}
+
 
 
 
@@ -317,36 +234,8 @@ footer a:hover{
 /* Grade-A Mobile Browsers (Opera Mobile, Mobile Safari, Android Chrome)
    consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
 @media screen and (max-device-width: 480px) {
-	#container{
-		width: 100%;
-	}
-	header #logo{
-		width: 100%;
-		margin: 10px 0;
-		text-align: center;
-	}
-	#main{
-		width: 80%;
-	}
-	#main .massive{
-		display: none;
-	}
-	#main #repo{
-		text-align: center;
-		margin: 40px auto;
-		padding: 0;
-	}
-	#repo h4{
-		float: none;
-		display: block;
-		margin: 10px;
-	}
-	
-	#repo .button{
-		float: none;
-		display: block;
-		margin: 10px;
-	}
+
+
   /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you: j.mp/textsizeadjust */
   /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
 }
