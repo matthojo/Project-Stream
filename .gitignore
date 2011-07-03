@@ -1,4 +1,6 @@
 Design/*
 Front/ProjectStream.esproj
+Front/*m
 *.swp
+.DS_Store
 !.gitignore
