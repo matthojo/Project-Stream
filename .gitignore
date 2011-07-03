@@ -1,6 +1,13 @@
+# Hide initial designs
 Design/*
+
+# Espresso Project Files
 Front/ProjectStream.esproj
+
+# A Secret Folder
 Front/*m
+
+# Other file clutter
 *.swp
 .DS_Store
 !.gitignore
