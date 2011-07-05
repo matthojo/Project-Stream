@@ -253,7 +253,7 @@ img.move{
 
 #main{
 	width: 600px;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 	text-align: center;
 }
 #main .massive{
@@ -261,17 +261,18 @@ img.move{
 	text-transform: uppercase;
 	font-size: 40px;
 	text-align: center;
+        margin-top: 40px;
 }
 #main #repo{
 	margin-top: 40px;
 	width: 100%;
 	background:#FFF;
 	border:1px solid #CCC;
-	padding: 20px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
+#main #repo section{ padding: 20px;}
 #repo h4{
 	float: left;
 	font-size: 20px;
@@ -357,26 +358,30 @@ footer a:hover{
 
 /* Grade-A Mobile Browsers (Opera Mobile, Mobile Safari, Android Chrome)
    consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 640px) {
+        body{ width: 100%; min-width: none;}
 	#container{
 		width: 100%;
 	}
 	header #logo{
 		width: 100%;
-		margin: 10px 0;
+		margin: 0;
 		text-align: center;
 	}
+        header #preview{ display: none;}
 	#main{
 		width: 80%;
 	}
 	#main .massive{
-		display: none;
+		font-size: 3em;
+                margin-top: 20px;
 	}
 	#main #repo{
 		text-align: center;
-		margin: 40px auto;
+		margin: 20px auto;
 		padding: 0;
 	}
+        #main #repo section{ padding: 0;}
 	#repo h4{
 		float: none;
 		display: block;
@@ -390,6 +395,14 @@ footer a:hover{
 	}
   /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you: j.mp/textsizeadjust */
   /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+/* Tom - Fix #preview from messing up when viewed in small window */
+@media screen and (max-width: 1200px) {
+    header #preview{ float: left; margin: 0 0 0 40px;}
+}
+@media screen and (max-width: 870px) {
+    header #preview{ display: none;}
 }
 
 
