@@ -38,12 +38,12 @@ $(document).ready(function() {
 	setTimeout(function(){ 
 	$('.move.equals').animate({top: '+10px'}, 400)
 	$('.move.equals').animate({top: '0px'}, 200);
-	}, 1600);
+	}, 1400);
 	
 	setTimeout(function(){ 
 	$('img.move').animate({top: '+10px'}, 400)
 	$('img.move').animate({top: '0px'}, 200);
-	}, 2200);
+	}, 2000);
 		
 		
 });
